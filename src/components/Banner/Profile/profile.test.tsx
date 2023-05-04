@@ -33,12 +33,27 @@ describe("Profile Component", () => {
 
     fireEvent.click(screen.getByText("Let's talk"));
     await expect(onClick).toBeDefined();
-    expect(screen.getByTestId("button")).toHaveClass(
-      "MuiButton-sizeMedium"
+  });
+
+  it("renders the given props", async () => {
+    render(
+      <BrowserRouter>
+        <Profile />
+      </BrowserRouter>
     );
+    expect(screen.getByTestId("button")).toHaveClass("MuiButton-sizeMedium");
     expect(screen.getByTestId("button")).toHaveClass(
       "MuiButton-containedPrimary"
     );
-   
+  });
+
+  it("renders the profile Image", async () => {
+    render(
+      <BrowserRouter>
+        <Profile />
+      </BrowserRouter>
+    );
+    expect(screen.getByAltText("profile")).toBeInTheDocument();
+    expect(screen.getByAltText("profile")).toHaveClass("MuiCardMedia-media");
   });
 });
