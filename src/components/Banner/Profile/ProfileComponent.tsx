@@ -27,14 +27,14 @@ const ProfileComponent = () => {
         <Slide direction="left">
           <Texts>
             <Typography variant="h6">
-              <SubHeading>
+              <SubHeading data-testid="heading-text">
                 Hello <span className="green">I'am</span>
               </SubHeading>
             </Typography>
-            <Typography variant="h1">
+            <Typography variant="h1" data-testid="name">
               <MainHeading>Ekta Rathi</MainHeading>
             </Typography>
-            <Typography variant="h3">
+            <Typography variant="h3" data-testid="user-role">
               <Title>Front End/UI Developer</Title>
             </Typography>
             <Typography variant="body2">
@@ -44,7 +44,7 @@ const ProfileComponent = () => {
               including HTML5, CSS3, React JS, Typescript, Next JS.
             </Typography>
             <Link to={DeveloperPdf} target="_blank" rel="noreferrer" download>
-              <StyledButton variant="contained">Let's talk</StyledButton>
+              <StyledButton variant="contained" data-testid="button">Let's talk</StyledButton>
             </Link>
             <Social>
               <Typography variant="body2">Check out my</Typography>
