@@ -20,12 +20,16 @@ export const Logo = styled("div")((props: any) => ({
   display: "flex",
   alignItems: "center",
   gap: "0.5rem",
+  "& .MuiSvgIcon-root": {
+    width: '2em',
+    height: '2em',
+  }
 }));
 
 export const LogoIcon = styled("div")((props: any) => ({
   color: "#01be96",
   fontSize: "1.8rem",
-  marginTop: 30,
+  marginTop: 20,
 }));
 
 export const Nav = styled("ul")<{ bar: boolean }>`

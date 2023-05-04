@@ -1,8 +1,9 @@
 import * as React from "react";
-import { GiCandleFlame } from "react-icons/gi";
 import { Logo, Nav, LogoIcon } from "./header.styled";
 import { Typography, Grid } from "@mui/material";
 import { HashLink as Link } from 'react-router-hash-link';
+
+import CandlestickChartIcon from '@mui/icons-material/CandlestickChart';
 
 const Header = () => {
   const [bar, setBar] = React.useState(false as any);
@@ -12,10 +13,10 @@ const Header = () => {
         <Logo>
           <Typography variant="body2" component="div">
             <LogoIcon>
-              <Link to="/" style={{color: '#01be96'}}><GiCandleFlame /></Link>
+              <Link to="/" style={{color: '#01be96'}}><CandlestickChartIcon/></Link>
             </LogoIcon>
           </Typography>
-          <Typography variant="h6" component="h1" style={{ marginTop: 30 }} data-testid="title">
+          <Typography variant="h6" component="h1" style={{ marginTop: 16, fontSize: '1.6rem' }} data-testid="title">
             Portfolio
           </Typography>
         </Logo>
@@ -25,7 +26,7 @@ const Header = () => {
         sm={9}
         style={{ display: "flex", justifyContent: "flex-end", marginTop: 35 }}
       >
-        <Nav bar={bar}>
+        <Nav bar={bar} data-testid="navbar">
           <li>
             <Link to="#skills">Skills</Link>
           </li>

@@ -31,7 +31,7 @@ describe("Profile Component", () => {
       </BrowserRouter>
     );
 
-    fireEvent.click(screen.getByText("Let's talk"));
+    fireEvent.click(screen.getByText("Download CV"));
     await expect(onClick).toBeDefined();
   });
 

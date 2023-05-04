@@ -1,4 +1,4 @@
-import { FaLinkedinIn } from "react-icons/fa";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Slide } from "react-awesome-reveal";
 import {
   Texts,
@@ -44,7 +44,7 @@ const ProfileComponent = () => {
               including HTML5, CSS3, React JS, Typescript, Next JS.
             </Typography>
             <Link to={DeveloperPdf} target="_blank" rel="noreferrer" download>
-              <StyledButton variant="contained" data-testid="button">Let's talk</StyledButton>
+              <StyledButton variant="contained" data-testid="button">Download CV</StyledButton>
             </Link>
             <Social>
               <Typography variant="body2">Check out my</Typography>
@@ -57,7 +57,7 @@ const ProfileComponent = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaLinkedinIn />
+                    <LinkedInIcon />
                   </a>
                 </IconLink>
               </SocialIcons>

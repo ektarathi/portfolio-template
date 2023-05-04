@@ -49,8 +49,8 @@ const SkillSet = () => {
           position="right"
         />
         <CircularProgressWithLabel
-          value={90}
-          text={"Material UI"}
+          value={80}
+          text={"TDD"}
           colorCode={"#33ff88"}
           position="left"
         />
