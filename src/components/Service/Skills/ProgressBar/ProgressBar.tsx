@@ -11,6 +11,7 @@ export default function CircularProgressWithLabel(
     text: string;
     colorCode: string;
     position: string;
+    dataTestId: string;
   }
 ) {
   return (
@@ -21,6 +22,7 @@ export default function CircularProgressWithLabel(
             variant="determinate"
             value={props.value}
             size={120}
+            data-testid={`${props.dataTestId}-progress`}
             sx={{
               color: props.colorCode,
               filter: `drop-shadow(0 0 5px ${props.colorCode})`,
@@ -45,6 +47,7 @@ export default function CircularProgressWithLabel(
               variant="caption"
               component="div"
               color="text.secondary"
+              data-testid={props.dataTestId}
               style={{
                 color: "white",
                 fontSize: "1rem",

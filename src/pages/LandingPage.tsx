@@ -5,7 +5,7 @@ import { Banner } from "./landing.styled";
 //components
 import Header from "../components/Banner/Header/HeaderComponent";
 import Profile from "../components/Banner/Profile/ProfileComponent";
-import Services from "../components/Service/Services";
+import Services from "../components/Service/ServicesComponent";
 import Projects from "../components/Projects/Projects";
 
 const LandingPage = () => {

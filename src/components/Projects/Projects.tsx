@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Component } from "react";
 import { Zoom } from "react-awesome-reveal";
 import { StyledWrapper } from "./projects.styled";
 import { Typography } from "@mui/material";
