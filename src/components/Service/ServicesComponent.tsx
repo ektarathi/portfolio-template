@@ -15,6 +15,8 @@ const Services = () => {
               <Typography variant="subtitle1" data-testid="skill-heading">
                 My <StaticText>Skills</StaticText>
               </Typography>
+            </Slide>
+            <Slide direction="up">
               <Typography variant="h5" component="h2" data-testid="skill-title">
                 What I am experienced in 
               </Typography>
