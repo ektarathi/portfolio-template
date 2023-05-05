@@ -2,16 +2,14 @@ import styled from "@emotion/styled";
 import { Box, Typography } from "@mui/material";
 
 const Project = (props: any) => {
-  const { img, disc, heading } = props.item;
-
   return (
-    <Container className="project" data-testid="">
-      <img src={img} alt={"testing"} />
+    <Container className="project" data-testid="project-details">
+      <img src={props?.item?.img} alt={props?.item?.alt} />
       <Box className="disc">
-        <Typography component={"h1"} variant="h4">
-          {heading}
+        <Typography component={"h1"} variant="h4" data-testid={`${props?.item?.alt}-title`}>
+          {props?.item?.heading}
         </Typography>
-        <Typography variant="body2">{disc}</Typography>
+        <Typography variant="body2">{props?.item?.disc}</Typography>
       </Box>
     </Container>
   );
@@ -41,6 +39,7 @@ const Container = styled.div`
     bottom: -10rem;
     text-align: left;
     padding: 0.5rem;
+    color: rgba(0, 0, 0, 0.9);
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
     transition: all 400ms ease-in-out;
     h1 {

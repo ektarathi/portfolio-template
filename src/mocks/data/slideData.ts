@@ -9,25 +9,30 @@ export const slideData = [
     img: storybook,
     disc: "Component library for creating reusabl components. The styling of the library is implemented using Material UI",
     heading: "Storybook",
+    alt:"storybook"
   },
   {
     img: BOD,
     disc: "A balancing mechanism for trading the electricity. The trading period is 30 minutes long where user can offer the value for electricity.",
     heading: "Bid Offer Data",
+    alt: 'bod'
   },
   {
     img: MEL,
     disc: "The maximum level at which the trading value is exported in (MW)",
     heading: "Maximum Export Limit",
+    alt:"mel"
   },
   {
     img: portfolio_control,
     disc: "An intergrated UI where trader/user can see information about various assets and how much value user/trader can supply. ",
     heading: "Portfolio Control",
+    alt:"portfolio"
   },
   {
     img: active_power,
     disc: "The power which we can supply to the traders for balancing mechanism",
     heading: "Active Power",
+    alt:"active_power"
   },
 ];
