@@ -10,6 +10,7 @@ import {
   SocialIcons,
   IconLink,
   Profile,
+  ProfileWrapper
 } from "./profile.styled";
 import { Typography, Grid, Card, CardMedia } from "@mui/material";
 import profile from "./profile.jpg";
@@ -23,7 +24,7 @@ const ProfileComponent = () => {
       spacing={3}
       style={{ marginTop: "3rem", marginBottom: "9rem" }}
     >
-      <Grid item sm={7}>
+      <Grid item xs={12} sm={7}>
         <Slide direction="left">
           <Texts>
             <Typography variant="h6">
@@ -65,12 +66,13 @@ const ProfileComponent = () => {
           </Texts>
         </Slide>
       </Grid>
-      <Grid item sm={5} style={{ display: "flex", justifyContent: "flex-end" }}>
+      <Grid item xs={12} sm={5}>
+        <ProfileWrapper>
         <Slide direction="right">
           <Profile>
             <Card
               sx={{
-                maxWidth: 345,
+                maxWidth: '100%',
                 height: 440,
                 filter: "drop-shadow(0px 10px 10px #01be9570)",
               }}
@@ -79,6 +81,7 @@ const ProfileComponent = () => {
             </Card>
           </Profile>
         </Slide>
+        </ProfileWrapper>
       </Grid>
     </Grid>
   );

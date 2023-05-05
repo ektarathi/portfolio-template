@@ -46,6 +46,14 @@ export const Social = styled("div")((props: any) => ({
   gap: "1rem",
 }));
 
+export const ProfileWrapper = styled("div")((props: any) => ({
+  display: "flex", 
+  justifyContent: "flex-end",
+  [props.theme.breakpoints.down("sm")]: {
+    justifyContent: "center",
+  },
+}));
+
 export const SocialIcons = styled("div")((props: any) => ({
   display: "flex",
   alignItems: "center",

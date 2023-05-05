@@ -15,7 +15,7 @@ export default function CircularProgressWithLabel(
   }
 ) {
   return (
-    <Grid item sm={3} style={{ display: "flex", justifyContent: "center" }}>
+    <Grid item xs={6} sm={3} style={{ display: "flex", justifyContent: "center" }}>
       <Slide direction={props.position as any}>
         <Box sx={{ position: "relative", display: "inline-flex" }}>
           <CircularProgress
