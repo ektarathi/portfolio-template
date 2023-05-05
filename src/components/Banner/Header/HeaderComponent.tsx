@@ -34,10 +34,7 @@ const Header = () => {
             <Link to="#project">Projects</Link>
           </li>
           <li>
-            <Link to="#client">Testimonials</Link>
-          </li>
-          <li>
-            <Link to="#footer">Portfolio</Link>
+            <Link to="#footer">Contact</Link>
           </li>
         </Nav>
       </Grid>
