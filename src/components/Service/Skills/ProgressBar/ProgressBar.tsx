@@ -52,9 +52,10 @@ export default function CircularProgressWithLabel(
                 color: "white",
                 fontSize: "1rem",
                 filter: `drop-shadow(0 0 5px ${props.colorCode})`,
+                textAlign: 'center'
               }}
             >
-              {props.text}
+              {props.text}<br/>{props.value}%
             </Typography>
           </Box>
         </Box>

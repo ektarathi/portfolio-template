@@ -26,7 +26,7 @@ const SkillSet = () => {
           value={90}
           text={"SCSS"}
           colorCode={"#33bbff"}
-          position="up"
+          position="down"
           dataTestId="scss-skill"
         />
         <CircularProgressWithLabel

@@ -21,7 +21,7 @@ const ProfileComponent = () => {
     <Grid
       container
       spacing={3}
-      style={{ marginTop: "7rem", marginBottom: "9rem" }}
+      style={{ marginTop: "3rem", marginBottom: "9rem" }}
     >
       <Grid item sm={7}>
         <Slide direction="left">
@@ -75,7 +75,7 @@ const ProfileComponent = () => {
                 filter: "drop-shadow(0px 10px 10px #01be9570)",
               }}
             >
-              <CardMedia component="img" image={profile} alt="profile" />
+              <CardMedia component="img" image={profile} alt="profile" style={{marginBottom: 30}} />
             </Card>
           </Profile>
         </Slide>
