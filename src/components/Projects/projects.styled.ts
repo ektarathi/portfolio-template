@@ -6,3 +6,16 @@ export const StyledWrapper = styled("div")((props: any) => ({
   textAlign: 'center',
 position: 'relative',
 }));
+
+export const ArrowUp = styled("div")((props: any) => ({
+  width: '2rem',
+  height: '2rem',
+  backgroundColor: '#01be96',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  cursor: 'pointer',
+  fontSize: '1.3rem',
+  fontWeight: 700,
+  marginTop: '2rem'
+}));

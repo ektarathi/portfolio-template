@@ -1,10 +1,18 @@
 import * as React from "react";
-import { Zoom } from "react-awesome-reveal";
-import { StyledWrapper } from "./projects.styled";
+import { Zoom, Fade } from "react-awesome-reveal";
+import { StyledWrapper, ArrowUp } from "./projects.styled";
 import { Container, Typography } from "@mui/material";
 import SliderComp from './Slider/SlideComponent';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 const Projects = () => {
+  const scrollUp = () => {
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <StyledWrapper id="project">
       <Container style={{padding: '40px 0'}}>
@@ -15,6 +23,11 @@ const Projects = () => {
         <Typography variant="body2" data-testid="title-text">Showcase of the recent UI on which I have worked on</Typography>
       </Zoom>
       <SliderComp/>
+      <Fade>
+          <ArrowUp onClick={scrollUp}>
+            <ArrowUpwardIcon />
+          </ArrowUp>
+        </Fade>
       </Container>
     </StyledWrapper>
   );
