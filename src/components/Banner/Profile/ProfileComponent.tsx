@@ -77,16 +77,6 @@ const ProfileComponent = () => {
                     <GitHubIcon />
                   </a>
                 </IconLink>
-                <IconLink>
-                  <a
-                    href="https://ekta-rathi-portfolio-2023.netlify.app/"
-                    className="icon"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <PublicIcon />
-                  </a>
-                </IconLink>
               </SocialIcons>
             </Social>
           </Texts>
