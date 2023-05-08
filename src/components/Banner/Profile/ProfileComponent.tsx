@@ -46,8 +46,8 @@ const ProfileComponent = () => {
               deep understanding of user interface design principles and
               extensive knowledge of testing and debugging processes. Proficient
               in a range of modern technologies such as HTML5, CSS3, React JS,
-              Typescript, and Next JS, I can create high-quality web
-              applications that meet the needs of modern businesses
+              Typescript, Redux Toolkit and Next JS.I can create high-quality web
+              applications that meet the needs of modern businesses.
             </Typography>
             <Link to={DeveloperPdf} target="_blank" rel="noreferrer" download>
               <StyledButton variant="contained" data-testid="button">
