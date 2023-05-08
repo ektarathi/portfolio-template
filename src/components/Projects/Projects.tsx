@@ -6,7 +6,7 @@ import SliderComp from './Slider/SlideComponent';
 
 const Projects = () => {
   return (
-    <StyledWrapper id="projects">
+    <StyledWrapper id="project">
       <Container style={{padding: '40px 0'}}>
       <Zoom>
         <Typography variant="h5" component="h1" data-testid="project-title">
