@@ -2,7 +2,6 @@ import * as React from "react";
 import { Logo, Nav, LogoIcon } from "./header.styled";
 import { Typography, Grid } from "@mui/material";
 import { HashLink as Link } from 'react-router-hash-link';
-
 import CandlestickChartIcon from '@mui/icons-material/CandlestickChart';
 
 const Header = () => {
