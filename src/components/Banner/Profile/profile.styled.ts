@@ -81,11 +81,17 @@ export const IconLink = styled("div")((props: any) => ({
 
 export const Profile = styled("div")((props: any) => ({
   "& img": {
-    width: "25rem",
+    borderRadius: 7,
     filter: "drop-shadow(0px 10px 10px #01be9570)",
     transition: "transform 400ms ease-in-out",
     [props.theme.breakpoints.up("sm")]: {
       flexDirection: "column",
+    },
+    [props.theme.breakpoints.down("sm")]: {
+      width: '25rem'
+    },
+    [props.theme.breakpoints.up("lg")]: {
+      width: "25rem",
     },
     "&:hover": {
       transform: "translateY(-10px)",

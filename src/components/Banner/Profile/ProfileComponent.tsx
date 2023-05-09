@@ -26,7 +26,7 @@ const ProfileComponent = () => {
       spacing={3}
       style={{ marginTop: "3rem", paddingBottom: "3rem" }}
     >
-      <Grid item xs={12} sm={7}>
+      <Grid item xs={12} sm={6}>
         <Slide direction="left">
           <Texts>
             <Typography variant="h6">
@@ -82,15 +82,17 @@ const ProfileComponent = () => {
           </Texts>
         </Slide>
       </Grid>
-      <Grid item xs={12} sm={5}>
+      <Grid item xs={12} sm={6}>
         <ProfileWrapper>
           <Slide direction="right">
             <Profile>
               <Card
                 sx={{
+                  overflow: 'inherit',
                   maxWidth: "100%",
-                  height: 440,
                   filter: "drop-shadow(0px 10px 10px #01be9570)",
+                  background: 'transparent',
+                  boxShadow: 'none'
                 }}
               >
                 <CardMedia
