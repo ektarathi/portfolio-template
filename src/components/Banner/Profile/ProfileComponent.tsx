@@ -17,10 +17,8 @@ import DeveloperPdf from "./Resume.pdf";
 import { Link } from "react-router-dom";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import useMediaQuery from '@mui/material/useMediaQuery';
 
 const ProfileComponent = () => {
-  const matches = useMediaQuery('(min-width:500px)');
   return (
     <Grid
       container
@@ -50,7 +48,7 @@ const ProfileComponent = () => {
               Typescript, Redux Toolkit and Next JS.I can create high-quality web
               applications that meet the needs of modern businesses.
             </Typography>
-            <Link to={DeveloperPdf} target="_blank" rel="noreferrer" download>
+            <Link to={DeveloperPdf} target="_blank" rel="noreferrer" download style={{textDecoration: 'none'}}>
               <StyledButton variant="contained" data-testid="button">
                 Download CV
               </StyledButton>
