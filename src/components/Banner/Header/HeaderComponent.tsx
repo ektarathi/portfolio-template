@@ -34,7 +34,7 @@ const Header = () => {
             <Link to="#project">Projects</Link>
           </li>
           <li>
-            <Link to="#footer">Contact</Link>
+            <Link to="#contact">Contact</Link>
           </li>
         </Nav>
       </Grid>

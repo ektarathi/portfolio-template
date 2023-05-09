@@ -13,7 +13,7 @@ const Footer = () => {
         });
       };
   return (
-    <Container>
+    <Container id="contact">
     <Grid container spacing={3}>
       <Grid item sm={6}>
         <FooterWrapper>
