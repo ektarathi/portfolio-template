@@ -51,7 +51,9 @@ const Footer = () => {
           </Fade>
         </FooterWrapper>
       </Grid>
-      <Grid item sm={6}></Grid>
+      <Grid item sm={6}>
+      <Typography variant="h4"> Contact Details:</Typography>
+      </Grid>
     </Grid>
     </Container>
   );
