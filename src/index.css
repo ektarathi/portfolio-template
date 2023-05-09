@@ -49,6 +49,10 @@ body{
     opacity: 1;
     pointer-events: all;
   }
+  
+  .slick-list, .slick-slider, .slick-track{
+    padding: 0;
+  }
 }
 
 

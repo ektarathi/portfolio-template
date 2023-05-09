@@ -45,10 +45,16 @@ const ProfileComponent = () => {
               deep understanding of user interface design principles and
               extensive knowledge of testing and debugging processes. Proficient
               in a range of modern technologies such as HTML5, CSS3, React JS,
-              Typescript, Redux Toolkit and Next JS.I can create high-quality web
-              applications that meet the needs of modern businesses.
+              Typescript, Redux Toolkit and Next JS.I can create high-quality
+              web applications that meet the needs of modern businesses.
             </Typography>
-            <Link to={DeveloperPdf} target="_blank" rel="noreferrer" download style={{textDecoration: 'none'}}>
+            <Link
+              to={DeveloperPdf}
+              target="_blank"
+              rel="noreferrer"
+              download
+              style={{ textDecoration: "none" }}
+            >
               <StyledButton variant="contained" data-testid="button">
                 Download CV
               </StyledButton>
@@ -83,26 +89,24 @@ const ProfileComponent = () => {
       </Grid>
       <Grid item xs={12} sm={6}>
         <ProfileWrapper>
-          <Slide>
-            <Profile>
-              <Card
-                sx={{
-                  overflow: 'inherit',
-                  maxWidth: "100%",
-                  filter: "drop-shadow(0px 10px 10px #01be9570)",
-                  background: 'transparent',
-                  boxShadow: 'none'
-                }}
-              >
-                <CardMedia
-                  component="img"
-                  image={profile}
-                  alt="profile"
-                  style={{ marginBottom: 30 }}
-                />
-              </Card>
-            </Profile>
-          </Slide>
+          <Profile>
+            <Card
+              sx={{
+                overflow: "inherit",
+                maxWidth: "100%",
+                filter: "drop-shadow(0px 10px 10px #01be9570)",
+                background: "transparent",
+                boxShadow: "none",
+              }}
+            >
+              <CardMedia
+                component="img"
+                image={profile}
+                alt="profile"
+                style={{ marginBottom: 30 }}
+              />
+            </Card>
+          </Profile>
         </ProfileWrapper>
       </Grid>
     </Grid>
