@@ -52,7 +52,6 @@ const Footer = () => {
         </FooterWrapper>
       </Grid>
       <Grid item sm={6}>
-      <Typography variant="h4"> Contact Details:</Typography>
       </Grid>
     </Grid>
     </Container>
