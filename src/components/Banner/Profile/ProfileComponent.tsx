@@ -17,9 +17,10 @@ import DeveloperPdf from "./Resume.pdf";
 import { Link } from "react-router-dom";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import PublicIcon from "@mui/icons-material/Public";
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 const ProfileComponent = () => {
+  const matches = useMediaQuery('(min-width:500px)');
   return (
     <Grid
       container
@@ -84,7 +85,7 @@ const ProfileComponent = () => {
       </Grid>
       <Grid item xs={12} sm={6}>
         <ProfileWrapper>
-          <Slide direction="right">
+          <Slide>
             <Profile>
               <Card
                 sx={{

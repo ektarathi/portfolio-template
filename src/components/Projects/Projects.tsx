@@ -15,7 +15,7 @@ const Projects = () => {
 
   return (
     <StyledWrapper id="project">
-      <Container style={{padding: '40px 0'}}>
+      <Container>
       <Zoom>
         <Typography variant="h5" component="h1" data-testid="project-title">
             Recent <Typography variant="h5" component="span" style={{color: "#01be96"}}>Projects</Typography>

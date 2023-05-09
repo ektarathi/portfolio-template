@@ -26,7 +26,7 @@ const Header = () => {
         sm={9}
         style={{ display: "flex", justifyContent: "flex-end", marginTop: 35 }}
       >
-        <Nav bar={bar} data-testid="navbar">
+        <Nav data-testid="navbar">
           <li>
             <Link to="#skills">Skills</Link>
           </li>
