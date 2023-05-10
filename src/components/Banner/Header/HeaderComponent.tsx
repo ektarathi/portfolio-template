@@ -5,7 +5,6 @@ import { HashLink as Link } from 'react-router-hash-link';
 import CandlestickChartIcon from '@mui/icons-material/CandlestickChart';
 
 const Header = () => {
-  const [bar, setBar] = React.useState(false as any);
   return (
     <Grid container spacing={3}>
       <Grid item sm={3}>
