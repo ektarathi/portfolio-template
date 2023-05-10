@@ -28,6 +28,7 @@ export const ArrowUp = styled("div")((props: any) => ({
   fontSize: "1.3rem",
   fontWeight: 700,
   marginTop: "2rem",
+  marginBottom: "2rem"
 }));
 
 export const Social = styled("div")((props: any) => ({

@@ -35,6 +35,9 @@ export const LogoIcon = styled("div")((props: any) => ({
 export const Nav = styled("ul")((props: any) => ({
   listStyleType: 'none',
   display: 'block',
+  [props.theme.breakpoints.down("sm")]: {
+    display: 'none'
+  },
   "& li":{
     marginLeft: '1rem',
     float: 'left',

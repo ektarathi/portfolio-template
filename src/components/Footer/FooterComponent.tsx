@@ -22,18 +22,18 @@ const Footer = () => {
       behavior: "smooth",
     });
   };
+
   return (
     <Container id="contact">
       <Grid container spacing={3}>
         <Grid item sm={6}>
-          <FooterWrapper>
+          <FooterWrapper data-testid="heading">
             <Typography variant="h4"> Portfolio</Typography>
             <Box sx={{ mt: "1rem" }}>
               <Typography variant="h5" component="h1" sx={{ mb: ".4rem" }}>
                 Address
               </Typography>
               <Typography variant="body2">
-                29 Honey Bee Street, <br />
                 Calcot, Reading, <br />
                 West Berkshire (United Kingdom)
               </Typography>

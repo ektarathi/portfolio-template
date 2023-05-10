@@ -5,6 +5,14 @@ export const Texts = styled("div")((props: any) => ({
   flex: 1,
 }));
 
+export const StyledWrapper = styled("div")((props: any) => ({
+  marginTop: "3rem",
+  paddingBottom: "3rem",
+  [props.theme.breakpoints.down("sm")]: {
+    marginTop: 0
+  },
+}));
+
 export const MainHeading = styled("div")((props: any) => ({
   fontSize: "2rem",
   fontFamily: '"Secular One", sans-serif',
