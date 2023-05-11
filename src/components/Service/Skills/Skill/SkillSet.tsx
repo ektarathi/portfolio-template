@@ -23,8 +23,8 @@ const SkillSet = () => {
           dataTestId="css-skill"
         />
         <CircularProgressWithLabel
-          value={90}
-          text={"SCSS"}
+          value={85}
+          text={"Redux"}
           colorCode={"#33bbff"}
           position="down"
           dataTestId="scss-skill"
@@ -47,7 +47,7 @@ const SkillSet = () => {
           dataTestId="react-skill"
         />
         <CircularProgressWithLabel
-          value={85}
+          value={80}
           text={"Next JS"}
           colorCode={"#3377ff"}
           position="right"
