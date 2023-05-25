@@ -1,6 +1,5 @@
-import * as React from "react";
 import { Zoom } from "react-awesome-reveal";
-import { StyledWrapper} from "./projects.styled";
+import { StyledWrapper } from "./projects.styled";
 import { Container, Typography, Box } from "@mui/material";
 import SliderComp from "./Slider/SlideComponent";
 

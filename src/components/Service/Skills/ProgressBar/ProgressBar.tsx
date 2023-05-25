@@ -25,7 +25,6 @@ export default function CircularProgressWithLabel(
             data-testid={`${props.dataTestId}-progress`}
             sx={{
               color: props.colorCode,
-              filter: `drop-shadow(0 0 5px ${props.colorCode})`,
               "& .MuiCircularProgress-circle": {
                 strokeLinecap: "round",
               },

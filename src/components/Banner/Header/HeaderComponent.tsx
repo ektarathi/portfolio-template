@@ -7,7 +7,7 @@ import CandlestickChartIcon from '@mui/icons-material/CandlestickChart';
 const Header = () => {
   return (
     <Grid container spacing={3}>
-      <Grid item sm={3}>
+      <Grid item sm={2}>
         <Logo>
           <Typography variant="body2" component="div">
             <LogoIcon>
@@ -21,7 +21,7 @@ const Header = () => {
       </Grid>
       <Grid
         item
-        sm={9}
+        sm={10}
         style={{ display: "flex", justifyContent: "flex-end", marginTop: 35 }}
       >
         <Nav data-testid="navbar">

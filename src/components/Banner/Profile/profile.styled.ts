@@ -36,7 +36,8 @@ export const StyledButton = styled(Button)({
   padding: "0.7rem 2rem",
   marginTop: "3rem",
   cursor: "pointer",
-  backgroundColor: "#01be96",
+  backgroundColor: "#5b247a",
+  borderRadius: "0 15px",
   border: "none",
   color: "#fff",
   textTransform: "capitalize",
@@ -52,6 +53,9 @@ export const Social = styled("div")((props: any) => ({
   display: "flex",
   alignItems: "center",
   gap: "1rem",
+  [props.theme.breakpoints.down("md")]: {
+    marginTop: "2rem"
+  },
 }));
 
 export const ProfileWrapper = styled("div")((props: any) => ({
@@ -72,7 +76,7 @@ export const IconLink = styled("div")((props: any) => ({
   width: "2.3rem",
   height: "2rem",
   clipPath: "polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)",
-  backgroundColor: "#01be96",
+  backgroundColor: "#5b247a",
   position: "relative",
   transition: "transform 400ms ease-in-out",
   "&:hover": {

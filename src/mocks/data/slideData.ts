@@ -7,7 +7,7 @@ import storybook from "./storybook.png";
 export const slideData = [
   {
     img: storybook,
-    disc: "Component library for creating reusabl components. The styling of the library is implemented using Material UI",
+    disc: "Component library for creating reusable components. The styling of the library is implemented using Material UI",
     heading: "Storybook",
     alt:"storybook"
   },

@@ -40,14 +40,13 @@ const Container = styled.div`
     text-align: left;
     padding: 0.5rem;
     color: rgba(0, 0, 0, 0.9);
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+    background: linear-gradient(40deg,#574bcd,#2999ad,#41e975);
     transition: all 400ms ease-in-out;
     h1 {
       font-size: 1rem;
     }
 
     p {
-      width: 90%;
       font-size: 0.8rem;
       a {
         margin-left: 0.4rem;
