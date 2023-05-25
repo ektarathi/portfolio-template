@@ -1,5 +1,5 @@
 import { Zoom } from "react-awesome-reveal";
-import { StyledWrapper, StyledCircle } from "./projects.styled";
+import { StyledWrapper } from "./projects.styled";
 import { Container, Typography, Box } from "@mui/material";
 import SliderComp from "./Slider/SlideComponent";
 
@@ -28,9 +28,6 @@ const Projects = () => {
           <SliderComp />
         </Container>
       </Box>
-      <StyledCircle>
-        <Box></Box>
-      </StyledCircle>
     </StyledWrapper>
   );
 };
