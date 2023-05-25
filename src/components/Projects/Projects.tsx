@@ -1,5 +1,5 @@
 import { Zoom } from "react-awesome-reveal";
-import { StyledWrapper } from "./projects.styled";
+import { StyledWrapper, StyledCircle } from "./projects.styled";
 import { Container, Typography, Box } from "@mui/material";
 import SliderComp from "./Slider/SlideComponent";
 
@@ -23,7 +23,7 @@ const Projects = () => {
           </Typography>
         </Zoom>
       </Box>
-      <Box style={{ marginLeft: 200 }}>
+      <Box>
         <Container>
           <SliderComp />
         </Container>
