@@ -10,6 +10,6 @@ export const StyledWrapper = styled("div")((props: any) => ({
 }));
 
 export const StaticText = styled("div")((props: any) => ({
-   color: '#01be96',
+   color: '#ffffff',
    display: 'inline'
 }));
