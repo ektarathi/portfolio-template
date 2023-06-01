@@ -6,6 +6,12 @@ export const IconLink = styled("div")((props: any) => ({
   marginTop: 10,
 }));
 
+export const TextContent = styled("div")((props: any) => ({
+  marginTop: 20,
+  textAlign: "center"
+}));
+
+
 export const StyledLink = styled("div")((props: any) => ({
     marginTop: -95,
     [props.theme.breakpoints.down("sm")]: {

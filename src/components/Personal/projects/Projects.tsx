@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Grid, Card, Box, CardMedia } from "@mui/material";
+import { Grid, Card, Box, CardMedia, Typography } from "@mui/material";
 
 // Image import
 import WebDevelopment from "../web_developement.png";
@@ -14,6 +14,7 @@ import {
   Overlay,
   IconLink,
   TravelInfoStyledLink,
+  TextContent
 } from "./projects.styled";
 
 const Projects = () => {
@@ -41,6 +42,9 @@ const Projects = () => {
                 </Link>
               </Box>
             </Card>
+            <TextContent>
+                <Typography variant="h6"> Portfolio template </Typography>
+            </TextContent>
           </StyledLink>
         </Grid>
         <Grid item xs={12} md={6}>
@@ -60,6 +64,9 @@ const Projects = () => {
                 </Link>
               </Box>
             </Card>
+            <TextContent>
+                <Typography variant="h6"> Travel website - Next JS </Typography>
+            </TextContent>
           </TravelInfoStyledLink>
         </Grid>
       </Grid>

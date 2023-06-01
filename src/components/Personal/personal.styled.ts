@@ -5,17 +5,17 @@ export const StyledWrapper = styled("div")((props: any) => ({
   position: "relative",
   marginTop: 70,
   paddingTop: 80,
-  paddingBottom: 220,
+  paddingBottom: 250,
   marginBottom: 95,
   width: "100%",
   zIndex: 1,
   color: "white",
   [props.theme.breakpoints.down("md")]: {
-    paddingBottom: 360
+    paddingBottom: 420
   },
 
   [props.theme.breakpoints.down("sm")]: {
-    paddingBottom: 560
+    paddingBottom: 650
   },
   "&:before": {
     background:
