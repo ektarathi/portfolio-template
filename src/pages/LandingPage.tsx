@@ -7,6 +7,7 @@ import Header from "../components/Banner/Header/HeaderComponent";
 import Profile from "../components/Banner/Profile/ProfileComponent";
 import Services from "../components/Service/ServicesComponent";
 import Projects from "../components/Projects/Projects";
+import PersonalInfo from "../components/Personal/PersonalInfo";
 import Footer from "../components/Footer/FooterComponent";
 
 const LandingPage = () => {
@@ -20,6 +21,7 @@ const LandingPage = () => {
       </Banner>
       <Services />
       <Projects />
+      <PersonalInfo />
       <Footer/>
     </React.Fragment>
   );
