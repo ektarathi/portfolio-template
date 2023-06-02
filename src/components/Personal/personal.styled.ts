@@ -15,7 +15,7 @@ export const StyledWrapper = styled("div")((props: any) => ({
   },
 
   [props.theme.breakpoints.down("sm")]: {
-    paddingBottom: 650
+    paddingBottom: 700
   },
   "&:before": {
     background:
