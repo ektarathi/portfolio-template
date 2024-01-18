@@ -3,7 +3,7 @@ import BOD from "./bod_submission.png";
 import MEL from "./maximum_export_limit.png";
 import portfolio_control from "./portfolio_control.png";
 import storybook from "./storybook.png";
-
+import recruitment_platform from "./recruitment_platform.png";
 export const slideData = [
   {
     img: storybook,
@@ -35,4 +35,10 @@ export const slideData = [
     heading: "Active Power",
     alt:"active_power"
   },
+  {
+    img: recruitment_platform,
+    disc: "A recruitment platform which will give information about candidates applying for job, new jobs added in the platform",
+    heading: "Recruitment Platform",
+    alt: "recruitment_platform"
+  }
 ];
