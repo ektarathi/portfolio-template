@@ -14,7 +14,7 @@ import {
 } from "./profile.styled";
 import { Typography, Grid, Card, CardMedia } from "@mui/material";
 import profile from "./profile_new.jpg";
-import DeveloperPdf from "./Ekta_Rathi_-_Senior_Frontend_Developer.pdf";
+import DeveloperPdf from "./Ekta_Rathi_Front_End_Engineer.pdf";
 import { Link } from "react-router-dom";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
