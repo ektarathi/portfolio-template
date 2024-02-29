@@ -38,14 +38,17 @@ const ProfileComponent = () => {
                 <Title>Front End/UI Developer</Title>
               </Typography>
               <Typography variant="body2">
-                As an Experienced Front-End Developer, I possess the necessary
-                skills to manage all stages of advanced web development. I have
-                a deep understanding of user interface design principles and
-                extensive knowledge of testing and debugging processes.
-                Proficient in a range of modern technologies such as HTML5,
-                CSS3, React JS, Typescript, Redux Toolkit and Next JS.I can
-                create high-quality web applications that meet the needs of
-                modern businesses.
+                As an Experienced Front-End Developer, I bring a comprehensive
+                skill set to manage every aspect of advanced web development.
+                With a profound grasp of user interface design principles and
+                thorough expertise in testing and debugging processes, I ensure
+                seamless functionality and optimal user experiences. 
+                <br/>
+                Proficient across a spectrum of modern technologies including HTML5, CSS3,
+                React JS, Typescript, Redux Toolkit, and Next JS, as well as
+                adept with cutting-edge CSS frameworks such as Material UI,
+                Tailwind CSS, and Bootstrap, I craft top-tier web applications
+                tailored to the demands of contemporary businesses.
               </Typography>
               <Link
                 to={DeveloperPdf}
