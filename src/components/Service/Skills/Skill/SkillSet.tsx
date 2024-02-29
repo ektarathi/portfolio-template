@@ -10,21 +10,21 @@ const SkillSet = () => {
       <Grid container spacing={3} data-testid="progress-skills">
         <CircularProgressWithLabel
           value={95}
-          text={"HTML"}
+          text={"HTML5"}
           colorCode={"#ff6633"}
           position="left"
           dataTestId="html-skill"
         />
         <CircularProgressWithLabel
           value={90}
-          text={"CSS"}
+          text={"CSS3"}
           colorCode={"#ff33ff"}
           position="right"
           dataTestId="css-skill"
         />
         <CircularProgressWithLabel
           value={85}
-          text={"Redux"}
+          text={"Redux Toolkit"}
           colorCode={"#33bbff"}
           position="down"
           dataTestId="scss-skill"
@@ -55,13 +55,13 @@ const SkillSet = () => {
         />
         <CircularProgressWithLabel
           value={80}
-          text={"TDD"}
+          text={"React Testing Library"}
           colorCode={"#33ff88"}
           position="left"
           dataTestId="tdd-skill"
         />
         <CircularProgressWithLabel
-          value={65}
+          value={75}
           text={"StoryBook"}
           colorCode={"#ff3333"}
           position="down"
