@@ -34,7 +34,7 @@ export const Title = styled("div")((props: any) => ({
 
 export const StyledButton = styled(Button)({
   padding: "0.7rem 2rem",
-  marginTop: "3rem",
+  marginTop: "2rem",
   cursor: "pointer",
   backgroundColor: "#5b247a",
   borderRadius: "0 15px",
@@ -49,8 +49,9 @@ export const StyledButton = styled(Button)({
 });
 
 export const Social = styled("div")((props: any) => ({
-  marginTop: "3rem",
+  marginTop: "1rem",
   display: "flex",
+  position: "absolute",
   alignItems: "center",
   gap: "1rem",
   [props.theme.breakpoints.down("md")]: {

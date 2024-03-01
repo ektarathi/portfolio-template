@@ -4,6 +4,7 @@ import { Grid, Card, Box, CardMedia, Typography } from "@mui/material";
 // Image import
 import WebDevelopment from "../web_developement.png";
 import TravelInfo from "../travel_website.png";
+import WeatherApp from "../weather_app.png";
 
 //Icons
 import LaunchIcon from "@mui/icons-material/Launch";
@@ -14,7 +15,9 @@ import {
   Overlay,
   IconLink,
   TravelInfoStyledLink,
-  TextContent
+  TextContent,
+  WeatherApiLink,
+  WeatherText
 } from "./projects.styled";
 
 const Projects = () => {
@@ -68,6 +71,28 @@ const Projects = () => {
                 <Typography variant="h6"> Travel website - Next JS </Typography>
             </TextContent>
           </TravelInfoStyledLink>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <WeatherApiLink>
+            <Card sx={{ borderRadius: "0 15px" }}>
+              <Box sx={{ position: "relative" }}>
+                <CardMedia component="img" height="203" image={WeatherApp} />
+                <Overlay className="image-overlay"></Overlay>
+                <Link
+                  className="icon"
+                  to="https://open-api-weather.netlify.app/"
+                  target="_blank"
+                >
+                  <IconLink>
+                    <LaunchIcon sx={{ width: 70, height: 60 }} />
+                  </IconLink>
+                </Link>
+              </Box>
+            </Card>
+            <WeatherText>
+                <Typography variant="h6"> Vite React JS Project</Typography>
+            </WeatherText>
+          </WeatherApiLink>
         </Grid>
       </Grid>
     </Grid>

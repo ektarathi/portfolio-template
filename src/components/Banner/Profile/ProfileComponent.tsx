@@ -23,7 +23,7 @@ const ProfileComponent = () => {
   return (
     <StyledWrapper>
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} style={{ paddingTop: 5}}>
           <Slide direction="left">
             <Texts>
               <Typography variant="h6">
