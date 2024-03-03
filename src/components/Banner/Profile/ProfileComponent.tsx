@@ -11,6 +11,7 @@ import {
   IconLink,
   Profile,
   ProfileWrapper,
+  ButtonWrapper
 } from "./profile.styled";
 import { Typography, Grid, Card, CardMedia } from "@mui/material";
 import profile from "./profile_new.jpg";
@@ -50,6 +51,7 @@ const ProfileComponent = () => {
                 Tailwind CSS, and Bootstrap, I craft top-tier web applications
                 tailored to the demands of contemporary businesses.
               </Typography>
+              <ButtonWrapper>
               <Link
                 to={DeveloperPdf}
                 target="_blank"
@@ -86,6 +88,8 @@ const ProfileComponent = () => {
                   </IconLink>
                 </SocialIcons>
               </Social>
+              </ButtonWrapper>
+             
             </Texts>
           </Slide>
         </Grid>

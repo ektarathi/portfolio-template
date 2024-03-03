@@ -54,8 +54,10 @@ export const Social = styled("div")((props: any) => ({
   position: "absolute",
   alignItems: "center",
   gap: "1rem",
-  [props.theme.breakpoints.down("md")]: {
-    marginTop: "2rem"
+  [props.theme.breakpoints.down("lg")]: {
+    marginTop: "2rem",
+    position: "static",
+    marginLeft: "1rem"
   },
 }));
 
@@ -109,5 +111,13 @@ export const Profile = styled("div")((props: any) => ({
     "&:hover": {
       transform: "translateY(-10px)",
     },
+  },
+}));
+
+export const ButtonWrapper = styled("div")((props: any) => ({
+  display: 'block',
+  [props.theme.breakpoints.down("lg")]: {
+    display: 'flex',
+  flexDirection: 'row',
   },
 }));

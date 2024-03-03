@@ -72,28 +72,6 @@ const Projects = () => {
             </TextContent>
           </TravelInfoStyledLink>
         </Grid>
-        <Grid item xs={12} md={6}>
-          <WeatherApiLink>
-            <Card sx={{ borderRadius: "0 15px" }}>
-              <Box sx={{ position: "relative" }}>
-                <CardMedia component="img" height="203" image={WeatherApp} />
-                <Overlay className="image-overlay"></Overlay>
-                <Link
-                  className="icon"
-                  to="https://open-api-weather.netlify.app/"
-                  target="_blank"
-                >
-                  <IconLink>
-                    <LaunchIcon sx={{ width: 70, height: 60 }} />
-                  </IconLink>
-                </Link>
-              </Box>
-            </Card>
-            <WeatherText>
-                <Typography variant="h6"> Vite React JS Project</Typography>
-            </WeatherText>
-          </WeatherApiLink>
-        </Grid>
       </Grid>
     </Grid>
   );
