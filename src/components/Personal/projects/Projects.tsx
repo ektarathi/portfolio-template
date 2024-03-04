@@ -54,11 +54,11 @@ const Projects = () => {
           <TravelInfoStyledLink>
             <Card sx={{ borderRadius: "0 15px" }}>
               <Box sx={{ position: "relative" }}>
-                <CardMedia component="img" height="203" image={TravelInfo} />
+                <CardMedia component="img" height="203" image={WeatherApp} />
                 <Overlay className="image-overlay"></Overlay>
                 <Link
                   className="icon"
-                  to="https://travel-site-2023.netlify.app/"
+                  to="https://open-api-weather.netlify.app/"
                   target="_blank"
                 >
                   <IconLink>
@@ -68,7 +68,7 @@ const Projects = () => {
               </Box>
             </Card>
             <TextContent>
-                <Typography variant="h6"> Travel website - Next JS </Typography>
+                <Typography variant="h6"> Open Weather Map API</Typography>
             </TextContent>
           </TravelInfoStyledLink>
         </Grid>
