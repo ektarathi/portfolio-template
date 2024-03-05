@@ -68,7 +68,7 @@ const Projects = () => {
               </Box>
             </Card>
             <TextContent>
-                <Typography variant="h6"> Open Weather Map API</Typography>
+                <Typography variant="h6"> Vite - Open Weather Map API</Typography>
             </TextContent>
           </TravelInfoStyledLink>
         </Grid>
